@@ -1,4 +1,45 @@
+/*--Variables--*/
 :root{
+/*Primary*/
 
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+
+/*Neutral*/
+
+--DarkBlue: hsl(234, 12%, 34%);
+--GrayishBlue: hsl(229, 6%, 66%);
+--LightGray: hsl(0, 0%, 98%);
+}
+/*--Reset--*/
+body,p,a,li,ul{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    padding: 1em;
+    color: var(--DarkBlue);
+    text-align: center;
+}
+.light{
+    font-weight: 200;
+}
+P{
+    text-align: center;
     
+    
+}
+.container{
+    position: relative;
+    top: -35px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 430px;
+  
 }
